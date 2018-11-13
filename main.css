@@ -1,0 +1,19 @@
+html {
+  background: #333; }
+  html h1 {
+    font-style: italic;
+    font-weight: bold; }
+
+@media screen and (min-width: 480px) {
+  h1 {
+    color: #fff; } }
+
+@media screen and (min-width: 600px) {
+  h1 {
+    color: red; }
+  html {
+    background: violet; } }
+
+@media screen and (min-width: 800px) {
+  h1 {
+    color: blue; } }

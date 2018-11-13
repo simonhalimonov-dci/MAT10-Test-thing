@@ -1,0 +1,34 @@
+$primary-color: #333;
+$secondary-color: #fff;
+
+html {
+  background: $primary-color;
+
+  h1 {
+    font-style: italic;
+    font-weight: bold;
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  h1 {
+    color: $secondary-color;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    color: red;
+  }
+
+  html {
+    background: violet;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    color: blue;
+  }
+}
